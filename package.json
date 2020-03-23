@@ -1,0 +1,25 @@
+{
+  "name": "finsta",
+  "version": "1.0.0",
+  "description": "fake instagram",
+  "main": "npm start",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boundsalexis/finsta.git"
+  },
+  "author": "Alexis Bounds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boundsalexis/finsta/issues"
+  },
+  "homepage": "https://github.com/boundsalexis/finsta#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.6"
+  }
+}
