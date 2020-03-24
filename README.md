@@ -9,13 +9,19 @@ goals:
 5. user authentication
 6. allow user to change their name, allow user to change their passsword
 7. full crud cycle of posts
+8. sticky nav
+9. sticky footer
+
+sprinkles
+_________
+notifications liked by n such
 
 
 
 models:
 
 a user has many posts
-post has many comments 
+post has many comments => comments belong to posts and have reference to user
 post has many likes
 post has time posted
 
@@ -36,3 +42,5 @@ upload photo to aws
 add to aws link to db
 update feed
 
+
+sprinkles: search page/explore page
